@@ -1,0 +1,14 @@
+﻿
+@media only screen and (max-width: 600px) {
+    /* Küçük ekranlarda menü görünür hale geliyor */
+    .toggle-btn:checked + nav
+
+{
+    left: 0;
+}
+
+main {
+    margin-top: 60px; /* Menü açıkken sayfa içeriğini kaydır */
+}
+
+}
